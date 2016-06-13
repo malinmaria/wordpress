@@ -19,7 +19,7 @@
                   </span>
                   by <?php the_author_posts_link(); ?>
                 </li>
-                <li class="cat">in <?php the_category(); ?></li>
+                <li class="cat"> <?php the_category(); ?></li>
                 <li class="date">on <?php the_date(); ?></li>
               </ul>
               <?php if (get_the_post_thumbnail()): ?>
